@@ -38,7 +38,3 @@ The projects are separate: ReShade hosts add-ons, the Bridge supplies a private 
 The latest stable runtime-A sample measured 81.959 present records/s, 20.515 simulation markers/s, PCL median 79.232 ms / P95 93.686 ms, and software display-interval P95 41.236 ms. Resource metadata associated 378 complete generated-1/generated-2/generated-3/real groups. These are software/resource observations, not optical FPS or physical input-to-photon measurements.
 
 The next proposed test is actual FG-runtime A/B/A (310.9 cache override versus game-folder 310.5.2, then restore A), while retaining native 4×, two NR passes and image quality. It has not been run. Optimization is currently paused.
-
-## Language and review
-
-The maintainer-facing documents are in English. A line-aligned Chinese translation is kept locally for human review and is not required to interpret this repository. No personal nationality or unrelated biographical information is part of this feedback.
