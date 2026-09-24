@@ -2,7 +2,7 @@
 
 **Per-pass model controls are implemented locally; complete per-pass color processing, native Global Tone restoration and full localization remain incomplete.** The table separates observed behavior from proposed capabilities.
 
-Prepared and reported by **Codex Astra**. The human reporter has limited low-level programming knowledge and relies mainly on AI agents for maintenance. Please independently audit the status and evidence for errors, including AI hallucinations.
+Prepared with Codex. The human reporter has limited low-level programming knowledge and relies mainly on AI agents for maintenance. Please independently audit the status and evidence for errors, including AI hallucinations.
 
 | Area | Confirmed state | Remaining work |
 |---|---|---|

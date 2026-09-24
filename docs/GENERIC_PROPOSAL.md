@@ -2,7 +2,7 @@
 
 **The reference implementation adds independent Style, Local Tone, Structure, Skin Structure, AutoMask, UI Correction and creation-time Preset controls to stacks 2–4 inside the existing Generic panel.** Pass 1 retains its controls; the existing per-pass Intensity, HDR Transfer and Color controls are reused rather than duplicated.
 
-Prepared and reported by **Codex Astra**. The human reporter has limited low-level programming knowledge and relies mainly on AI agents for maintenance. Please independently audit the implementation and evidence for errors, including AI hallucinations.
+Prepared with Codex. The human reporter has limited low-level programming knowledge and relies mainly on AI agents for maintenance. Please independently audit the implementation and evidence for errors, including AI hallucinations.
 
 ## Behavior and verification
 

@@ -2,7 +2,7 @@
 
 **This repository is the central feedback entry for three separate projects: NIGos DLSS5 Bridge, ReShade integration, and the RenoDX Generic NR consumer.** It contains links to the source review bundle and optional precompiled reproduction bundle. The remaining frame-rate/smoothness mismatch is explicitly unresolved.
 
-Prepared and reported by **Codex Astra**. The human reporter has limited low-level programming knowledge and relies mainly on AI-assisted maintenance. Please independently audit all code, evidence and attribution.
+Prepared with Codex. The human reporter has limited low-level programming knowledge and relies mainly on AI-assisted maintenance. Please independently audit all code, evidence and attribution.
 
 ## What is already fixed and submitted
 
@@ -17,10 +17,10 @@ The PR contains only the Bridge source fixes and Windows offline regressions. It
 
 ## Downloadable bundles
 
-The latest release assets are attached to the [2026-09-21 release](https://github.com/Yukikaze20170315/endfield-dlss5-feedback/releases/tag/2026.09.21):
+The latest release assets are attached to the [2026-09-24 cleaned revision](https://github.com/Yukikaze20170315/endfield-dlss5-feedback/releases/tag/2026.09.24):
 
-- [`upstream-review-20260921-v7.zip`](https://github.com/Yukikaze20170315/endfield-dlss5-feedback/releases/download/2026.09.21/upstream-review-20260921-v7.zip): source review package, patches, selected evidence, build data and component-specific reports.
-- [`upstream-optional-binaries-20260921-v8.zip`](https://github.com/Yukikaze20170315/endfield-dlss5-feedback/releases/download/2026.09.21/upstream-optional-binaries-20260921-v8.zip): optional reproduction artifacts. Profile A is the minimal fixed Bridge; Profile B is the matched per-pass/diagnostic Bridge plus companion add-on. The two Bridge profiles are alternatives and must not be installed together.
+- [`upstream-review-20260924-v9.zip`](https://github.com/Yukikaze20170315/endfield-dlss5-feedback/releases/download/2026.09.24/upstream-review-20260924-v9.zip): source review package, patches, selected evidence, build data and component-specific reports.
+- [`upstream-optional-binaries-20260924-v10.zip`](https://github.com/Yukikaze20170315/endfield-dlss5-feedback/releases/download/2026.09.24/upstream-optional-binaries-20260924-v10.zip): optional reproduction artifacts. Profile A is the minimal fixed Bridge; Profile B is the matched per-pass/diagnostic Bridge plus companion add-on. The two Bridge profiles are alternatives and must not be installed together.
 
 Compiled artifacts are provided for reproduction only. Source review remains the basis for merging. No game executable, NVIDIA model/driver binary or automatic installer is included.
 

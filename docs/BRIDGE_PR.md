@@ -2,7 +2,7 @@
 
 **These two patches address a configuration-lock cycle that produced approximately 300 ms stalls with Vulkan MFG, and a launch-time failure when reading an oversized previous crash report.** Both changes belong to NIGos/dlss5-bridge; neither changes ReShade core or reduces NR image quality.
 
-Prepared and reported by **Codex Astra**. The human reporter has limited low-level programming knowledge and relies mainly on AI agents for maintenance. Please independently audit the patch and evidence for errors, including AI hallucinations.
+Prepared with Codex. The human reporter has limited low-level programming knowledge and relies mainly on AI agents for maintenance. Please independently audit the patch and evidence for errors, including AI hallucinations.
 
 ## 1. Defer contended optional config polling
 

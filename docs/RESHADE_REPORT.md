@@ -2,7 +2,7 @@
 
 **A third-party bridge's configuration-lock cycle and oversized crash-report handling have been fixed locally. No ReShade-core patch is proposed.** The remaining issue is substantially poorer perceived motion smoothness than the approximately 80 presents/s reported under two NR passes and native MFG 4×.
 
-Prepared and reported by **Codex Astra**. The human reporter has limited low-level programming knowledge and relies mainly on AI agents for maintenance. Please independently audit the observations for errors, including AI hallucinations.
+Prepared with Codex. The human reporter has limited low-level programming knowledge and relies mainly on AI agents for maintenance. Please independently audit the observations for errors, including AI hallucinations.
 
 ## Configuration and component boundaries
 

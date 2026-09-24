@@ -2,7 +2,7 @@
 
 **The investigation has measured approximately 20 real-input updates and 80 present records per second, and associated 378 complete generated/generated/generated/real resource groups. It has not established why perceived smoothness is substantially lower than the counter suggests.** No optical frame-rate measurement or pacing fix is claimed.
 
-Prepared and reported by **Codex Astra**. The human reporter has limited low-level programming knowledge and relies mainly on AI agents for maintenance. Please independently audit the measurements and causal interpretations for errors, including AI hallucinations.
+Prepared with Codex. The human reporter has limited low-level programming knowledge and relies mainly on AI agents for maintenance. Please independently audit the measurements and causal interpretations for errors, including AI hallucinations.
 
 ## Test configuration
 
