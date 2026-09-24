@@ -1,13 +1,5 @@
-# RHI and rhi-repo scope
+# Release sources and verification scope
 
-RHI is the installer and manager. Its `Renodx5AddonService` queries `https://api.github.com/repos/RankFTW/rhi-repo/releases?per_page=100`, filters `renodx-dlss5-*` and `renodx-dlss-SF-*` tags, and stages the selected addon. It can therefore discover a release such as RenoDX DLSS5 7.0.0-rc8 without a matching RHI source commit.
+RHI manages installation and version selection. Its [Renodx5AddonService](https://github.com/RankFTW/RHI/blob/85505fca3874e98a5392b0b0647dfc088e6cf055/RenoDXCommander/Services/Renodx5AddonService.cs) reads rhi-repo releases, while its RenoDX database service consumes rhi-repo database files. The reviewed RHI patch notes describe installer behavior; they are not a complete Generic binary changelog.
 
-RHI also reads `rhi-repo/database/RenoDXdb.json` and `RenoDXdb-unreal.json`. RHI patch notes describe installer, version selection, deployment, cleanup and caching behavior. They are not a changelog for the internal implementation of a RenoDX DLSS5 binary.
-
-Generic feature claims in this package rely on the release assets and static comparison of the Generic addon itself. RHI metadata can establish when the installer exposed or consumed a release, but cannot establish which hidden model parameters a binary consumes at runtime.
-
-References checked on 2026-09-24:
-
-- https://github.com/RankFTW/RHI
-- https://github.com/RankFTW/rhi-repo/releases
-- https://github.com/RankFTW/rhi-repo/releases/tag/renodx-dlss5-7.0.0-rc8
+This report combines controlled 5.2.1 game observations with separately identified static release-asset observations. See [the Generic report](GENERIC_PROPOSAL.md) for the 7.0.0-rc1/rc8 control inventory. The newer binaries have not been deployed or tested in Endfield as part of this review.

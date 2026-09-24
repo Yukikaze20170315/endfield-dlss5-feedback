@@ -1,8 +1,18 @@
-# Add independent NR model controls to the existing stack groups
+# Generic 5.2.1 per-pass reference and upstream 7.0 status
 
 **The reference implementation adds independent Style, Local Tone, Structure, Skin Structure, AutoMask, UI Correction and creation-time Preset controls to stacks 2–4 inside the existing Generic panel.** Pass 1 retains its controls; the existing per-pass Intensity, HDR Transfer and Color controls are reused rather than duplicated.
 
 Prepared with Codex. The human reporter has limited low-level programming knowledge and relies mainly on AI agents for maintenance. Please independently audit the implementation and evidence for errors, including AI hallucinations.
+
+## Version scope — 24 September 2026
+
+This reference implementation and its game observations target Generic 5.2.1. The request to introduce independent later-pass model controls is superseded by the upstream 7.0.0 release candidates.
+
+Both 7.0.0-rc1 and rc8 contain explicit pass-2/3/4 settings for Intensity, Transfer, Color, FollowPass1, Style, LocalTone, Structure, Skin, AutoMask and UICorrection. The rc8 UI explanation says that disabling follow-pass-1 gives a pass its own Look settings. This establishes that upstream has adopted the independent-control design; this report does not request that it be introduced again. rc8 also includes a language selector and Simplified/Traditional Chinese entries.
+
+No distinct NRPass2/3/4Preset configuration keys were found in this static inventory. Preset completeness and Endfield runtime compatibility have not been tested on these builds. Those limits do not invalidate the evidence that upstream recognizes and implements per-pass control. No claim is made that this feedback caused the upstream changes. The version-specific 5.2.1 adapter must not be installed against rc1/rc8 without porting.
+
+Release assets: [rc1](https://github.com/RankFTW/rhi-repo/releases/tag/renodx-dlss5-7.0.0-rc1), [rc8](https://github.com/RankFTW/rhi-repo/releases/tag/renodx-dlss5-7.0.0-rc8). Archive and addon hashes, exact configuration keys and UI excerpts are in `GENERIC_VERSION_EVIDENCE.json`. The observed pass-2 Local Tone isolation and creation-time Preset consumption below remain evidence for the tested 5.2.1 integration only.
 
 ## Behavior and verification
 
